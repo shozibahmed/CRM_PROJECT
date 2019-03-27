@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="FREE CRM Application Test Automation Test Suite">
+  <test name="Free CRM app test cases" >
+    <classes>
+    	
+   		<class name="com.cra.tests.LoginPageTest" ></class>
+        <class name="com.cra.tests.HomePageTest" ></class>
+       
+       
+    </classes>
+  </test>
+ 
+  
+</suite>

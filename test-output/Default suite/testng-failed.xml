@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.cra.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="verifyUserNameTest"/>
+        </methods>
+      </class> <!-- com.cra.tests.HomePageTest -->
+      <class name="com.cra.tests.LoginPageTest">
+        <methods>
+          <include name="loginPageTitle"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="crmLogoImageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cra.tests.LoginPageTest -->
+      <class name="com.cra.tests.ContactsPageTest">
+        <methods>
+          <include name="verifyContactsPageLabel"/>
+          <include name="tearDown"/>
+          <include name="validateCreateNewContact"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cra.tests.ContactsPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
